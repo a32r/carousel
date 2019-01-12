@@ -8,7 +8,7 @@
 .carousel-control {
 	width: 79px;
 	height: 87px;
-	top: 35%;
+	top: 42%;
 }
 
 .left {
@@ -17,4 +17,15 @@
 
 .right {
 	border-radius: 3px 0 0 3px;
+}
+
+.carousel-control .glyphicon {
+	font-size: 20px;
+}
+
+/* MD @media queries */
+@media (max-width: 992px) {
+	.carousel-control {
+		top: 36%;
+	}
 }
