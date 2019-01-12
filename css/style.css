@@ -1,18 +1,32 @@
-/* .carousel { */
-/* 	display: flex; */
-/* 	/1* align-items: center; *1/ */
-/* } */
+/* Redefine bootstrap styles */
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control.left,
+.carousel-control.right {
+	position: static;
+}
 
-/* .carousel-control.left, .carousel-control.right { */
-/* 	background: rgba(0,0,0,.2); */
-/* } */
+/* Vertical aligh carousel controls */
+.carousel {
+	display: flex;
+	flex-flow: wrap;
+}
 
-/* .left:hover, .right:hover { */
-/* 	background: rgba(0,0,0,.5); */
-/* } */
+.carousel-inner {
+	/* flex: 1 0 100%; */
+}
 
-/* .carousel-control { */
-/* 	width: 89px; */
-/* 	height: 87px; */
-/* 	/1* position: initial; *1/ */
-/* } */
+.carousel-control.left,
+.carousel-control.right {
+	background: rgba(0,0,0,.2);
+	align-self: center;
+}
+
+.left:hover, .right:hover {
+	background: rgba(0,0,0,.4);
+}
+
+.carousel-control {
+	width: 89px;
+	height: 87px;
+}
