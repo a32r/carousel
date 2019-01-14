@@ -23,7 +23,24 @@
 }
 
 /* Image adjustment */
-.item img {
+.item {
+	height: 675px;
+}
+
+#slide1 {
+	background: url('../img/slider_1.jpg') center no-repeat;
+}
+
+#slide2 {
+	background: url('../img/slider_2.jpg') center no-repeat;
+}
+
+#slide3 {
+	background: url('../img/slider_3.jpg') center no-repeat;
+}
+
+#slide4 {
+	background: url('../img/slider_4.jpg') center no-repeat;
 }
 
 /* Caption adjustment */
