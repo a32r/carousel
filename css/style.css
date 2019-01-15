@@ -19,7 +19,7 @@
 }
 
 .carousel-control .glyphicon {
-	font-size: 20px;
+	font-size: 2rem;
 }
 
 /* Image adjustment */
@@ -55,15 +55,15 @@
 	text-shadow: initial;
 	line-height: initial;
 	color: black;
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .carousel-caption > p:first-of-type {
-	font-size: 4.5rem;
+	font-size: 2.5vw;
 }
 
 .carousel-caption > p:last-of-type {
-	font-size: 3rem;
+	font-size: 1.5vw;
 }
 
 .btn {
