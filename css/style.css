@@ -85,14 +85,18 @@
 
 /* Indicators adjustment */
 .carousel-indicators li {
+	display: flex;
 	width: initial;
 	height: initial;
 	border: initial;
-	border-radius: 3px;
+	border-radius: 4px;
 	text-indent: initial;
 	background: rgba(0,0,0,.15);
 }
 
+.carousel-indicators li img {
+	border-radius: 4px;
+}
 
 /* MD @media queries */
 @media (max-width: 992px) {
