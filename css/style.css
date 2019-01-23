@@ -52,6 +52,7 @@
 }
 
 .carousel-caption > p {
+	font-size: 1.5vw;
 	text-shadow: initial;
 	line-height: initial;
 	color: black;
@@ -60,10 +61,6 @@
 
 .carousel-caption > p:first-of-type {
 	font-size: 2.5vw;
-}
-
-.carousel-caption > p:last-of-type {
-	font-size: 1.5vw;
 }
 
 .btn {
@@ -128,6 +125,11 @@
 	.carousel-indicators li p:last-of-type {
 		font-weight: bold;
 	} 
+
+	/* Caption adjustment */
+	.carousel-caption > p:nth-of-type(2) {
+		display: none;
+	}
 }
 
 /* MD @media queries */
@@ -176,6 +178,10 @@
 
 	/* Caption adjustment */
 	.btn-default {
+		display: none;
+	}
+
+	.carousel-caption > p:last-of-type {
 		display: none;
 	}
 }
