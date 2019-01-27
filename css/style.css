@@ -1,32 +1,19 @@
-/* Redefine bootstrap styles */
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right,
-.carousel-control.left,
-.carousel-control.right {
-	position: static;
-}
-
-/* Vertical aligh carousel controls */
-.carousel {
+body {
+	background-color: rgb(196, 205, 214);	
+	height: 900px;
 	display: flex;
-	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
-.carousel-inner {
-	/* flex: 1 0 100%; */
+.btn {
+	text-transform: uppercase;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	border-radius: 3px;
 }
 
-.carousel-control.left,
-.carousel-control.right {
-	background: rgba(0,0,0,.2);
-	align-self: center;
-}
-
-.left:hover, .right:hover {
-	background: rgba(0,0,0,.4);
-}
-
-.carousel-control {
-	width: 89px;
-	height: 87px;
+.btn-warning {
+	border-color: rgb(255, 137, 30);
+	background-color: rgb(255, 137, 30);
 }
