@@ -1,10 +1,13 @@
 body {
 	background-color: rgb(196, 205, 214);	
+	height: 900px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn {
 	text-transform: uppercase;
-	margin-right: 1.1em;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 	border-radius: 3px;
